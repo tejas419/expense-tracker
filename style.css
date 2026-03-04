@@ -1,20 +1,16 @@
 /* --- General & Reset --- */
 :root {
     --bg-dark: #111827;
---bg-med: #1f2937;
---bg-light: #374151;
---border-color: #4b5563;
-
---text-light: #e5e7eb;
---text-med: #9ca3af;
-
-/* Red theme */
---accent-primary: #ef4444;
---accent-primary-hover: #dc2626;
---accent-primary-transparent: rgba(239, 68, 68, 0.2);
-
---green: #22c55e;
---red: #ef4444;
+    --bg-med: #1f2937;
+    --bg-light: #374151; 
+    --border-color: #4b5563; 
+    --text-light: #e5e7eb;
+    --text-med: #9ca3af; 
+    --accent-primary: #6366f1;
+    --accent-primary-hover: #4f46e5;
+    --accent-primary-transparent: rgba(99, 102, 241, 0.2);
+    --green: #22c55e;
+    --red: #ef4444;
 }
 
 * {
@@ -354,5 +350,6 @@ a {
         grid-column: auto;
     }
 }
+
 
 
